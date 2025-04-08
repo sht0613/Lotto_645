@@ -35,12 +35,12 @@ void Shuffle()
 void Print()
 {
 	cout << "´çÃ·¹øÈ£: " << endl;
-	cout << Ball[0] << endl;
-	cout << Ball[1] << endl;
-	cout << Ball[2] << endl;
-	cout << Ball[3] << endl;
-	cout << Ball[4] << endl;
-	cout << Ball[5] << endl;
+	for (int i = 0; i < 6; i++)
+	{
+		cout << Ball[i] << endl;
+	}
+	
+	
 
 	
 }
